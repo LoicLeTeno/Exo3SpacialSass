@@ -1,0 +1,148 @@
+// MEDIA
+@media screen and (min-width: 950px) and (max-width: 1320px) {
+    * {
+        font-size: 95%;
+    }
+
+    .imageSection2 {
+        flex-direction: column;
+    }
+
+
+    #container3 {
+        .ligne {
+            .paraImage {
+                div {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 630px) and (max-width: 949px) {
+    * {
+        font-size: 95%;
+    }
+
+// SECTION 1
+    .titreSection1 {
+        h3 {
+            padding-bottom: 50px;
+        }
+    }
+
+    .paraSection1 {
+        
+        p {
+            line-height: 10px;
+            font-size: 75%;
+        }
+    }
+
+
+// SECTION 2
+    .imageSection2 {
+        flex-direction: column;
+    }
+
+
+// SECTION 3
+    #container3 {
+        .ligne {
+            flex-direction: column;
+            
+            width: 80%;
+
+            .paraImage {
+                margin-bottom: 20px;
+
+                div {
+                    width: 200px;
+
+                    font-size: 80%;
+                    
+                    p:nth-of-type(2) {
+                        margin-bottom: 20px;
+                    }
+                    p:nth-of-type(3) {
+                        line-height: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 629px) {
+    * {
+        font-size: 95%;
+    }
+
+// SECTION 1
+    #navbar {
+        flex-direction: column;
+
+        text-align: center;
+
+        .nav {
+            border-top: 1px solid white;
+
+            a {
+                margin-right: 40px;
+            }
+        }
+    }
+
+    #container1 {
+        display: inline;
+
+        text-align: center;
+
+        width: 100%;
+
+        .titreSection1 {
+            width: 100%;
+
+            h3 {
+                padding-bottom: 50px;
+            }
+        }
+    
+        .paraSection1 {
+            
+            p {
+                display: none;
+            }
+        }
+    
+    }
+
+// SECTION 2
+    .imageSection2 {
+        flex-direction: column;
+    }
+
+
+// SECTION 3
+    #container3 {
+        display: none;
+    }
+}
+
+// FOOTER
+#footerSociaux {
+    padding: 20px;
+}
+
+.copyright {
+    font-size: 70%;
+    
+}
+
+#footerSociaux .copyright p {
+        
+    padding: 10px 5px;
+}

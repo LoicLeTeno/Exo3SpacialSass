@@ -6248,11 +6248,18 @@ header #filterImage #paraStartEnd #redButton {
 #container2 .imageSection2 {
   display: flex;
   justify-content: center;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #container2 .imageSection2 .image {
   background-color: white;
   margin: 20px;
+}
+
+#container2 .imageSection2 .image img {
+  width: 100%;
 }
 
 #container2 .imageSection2 .image p {
@@ -6311,6 +6318,8 @@ header #filterImage #paraStartEnd #redButton {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #container3 .ligne .paraImage {
@@ -6416,6 +6425,99 @@ header #filterImage #paraStartEnd #redButton {
 #footerSociaux .copyright p:nth-of-type(2) {
   border-right: solid 1px rgba(0, 0, 0, 0.3);
   border-left: solid 1px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 950px) and (max-width: 1320px) {
+  * {
+    font-size: 95%;
+  }
+  .imageSection2 {
+    flex-direction: column;
+  }
+  #container3 .ligne .paraImage div {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 630px) and (max-width: 949px) {
+  * {
+    font-size: 95%;
+  }
+  .titreSection1 h3 {
+    padding-bottom: 50px;
+  }
+  .paraSection1 p {
+    line-height: 10px;
+    font-size: 75%;
+  }
+  .imageSection2 {
+    flex-direction: column;
+  }
+  #container3 .ligne {
+    flex-direction: column;
+    width: 80%;
+  }
+  #container3 .ligne .paraImage {
+    margin-bottom: 20px;
+  }
+  #container3 .ligne .paraImage div {
+    width: 200px;
+    font-size: 80%;
+  }
+  #container3 .ligne .paraImage div p:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
+  #container3 .ligne .paraImage div p:nth-of-type(3) {
+    line-height: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 629px) {
+  * {
+    font-size: 95%;
+  }
+  #navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  #navbar .nav {
+    border-top: 1px solid white;
+  }
+  #navbar .nav a {
+    margin-right: 40px;
+  }
+  #container1 {
+    display: inline;
+    text-align: center;
+    width: 100%;
+  }
+  #container1 .titreSection1 {
+    width: 100%;
+  }
+  #container1 .titreSection1 h3 {
+    padding-bottom: 50px;
+  }
+  #container1 .paraSection1 p {
+    display: none;
+  }
+  .imageSection2 {
+    flex-direction: column;
+  }
+  #container3 {
+    display: none;
+  }
+}
+
+#footerSociaux {
+  padding: 20px;
+}
+
+.copyright {
+  font-size: 70%;
+}
+
+#footerSociaux .copyright p {
+  padding: 10px 5px;
 }
 
 * {
