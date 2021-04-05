@@ -1,0 +1,39 @@
+// SECTION 1
+#container1 {
+    display: flex;
+
+    width: 50%;
+
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .titreSection1 {
+        width: 70%;
+        h2 {
+            font-size: 250%;
+            font-weight: bold;
+            line-height: 55px;
+        }
+        h3 {
+            color: rgba(0, 0, 0, 0.3);
+
+            font-size: 130%;
+            line-height: 30px;
+
+            margin-top: 30px;
+        }
+    }
+    .paraSection1 {
+        color: rgba(0, 0, 0, 0.6);
+
+        font-size: 80%;
+        line-height: 25px;
+
+        width: 50%;
+
+        p {
+            margin-bottom: 40px;
+        }
+    }
+}

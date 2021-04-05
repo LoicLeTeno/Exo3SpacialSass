@@ -1,0 +1,77 @@
+// HEADER
+header{
+    background-image: url(../../../public/img/banner.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #filterImage {
+        background-color: rgba(28, 28, 39, 0.7);
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+
+            padding: 50px 40px;
+
+            #logo {
+
+                p {
+                    color: $colorHeader;
+    
+                    span {
+                        color: white;
+
+                        font-weight: bold;
+                    }
+                }
+            }
+            .nav {
+                
+                a {
+                    color: $colorHeader;
+                    text-decoration: none;
+
+                    margin-left: 40px;
+                }
+                a:hover {
+                    color: white;
+                }
+            }
+        }
+        #paraStartEnd {
+            text-align: center;
+
+            margin-top: 150px;
+            padding-bottom: 300px;
+
+            h1 {
+                color: white;
+
+                font-size: 50px;
+                font-weight: bolder;
+
+                margin-bottom: 35px;
+            }
+            h4 {
+                color: $colorHeader;
+
+                font-weight: lighter;
+                line-height: 30px;
+
+                margin-bottom: 35px;
+            }
+            #redButton {
+                background-color: $redButton;
+                color: white;
+
+                font-weight: bold;
+
+                border: none;
+                border-radius: 3px 3px 3px 3px;
+
+                padding: 15px 35px;
+            }
+        }
+    }
+}
